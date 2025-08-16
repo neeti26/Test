@@ -1,0 +1,15 @@
+[package]
+name = "live_quiz_dao"
+version = "1.0.0"
+authors = []
+
+[addresses]
+quiz_addr = "0x9ecf772b76415f3ea0c8432d8c1d4fea7a5cfe54730cbb9338b4853ed6098d92"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
